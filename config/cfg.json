@@ -5,5 +5,5 @@
 		"bk_username":"021127100"
 	},
 	"API":"https://paas.evergrande.com/api/c/compapi/v2/cc/",
-	"db" : "root:HD#it2019@tcp(10.100.174.21:3306)/cmdb"
+	"db" : "root:123456@tcp(localhost:3306)/cmdb"
 }

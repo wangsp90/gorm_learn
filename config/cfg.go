@@ -18,7 +18,7 @@ type Parameter struct {
 }
 
 func Getcfg() (cfginfo Cfginfo) {
-	buf, errOpen := ioutil.ReadFile("D:/Doc/GO/path/src/config/cfg.json")
+	buf, errOpen := ioutil.ReadFile("./config/cfg.json")
 	if errOpen != nil {
 		log.Println("配置文件加载失败...")
 		log.Println(errOpen.Error())

@@ -5,7 +5,7 @@ import (
 )
 
 type Biz struct {
-	Bk_biz_id           int       `json:"bk_biz_id" gorm:"int;not null;unique;primary key"`
+	Bk_biz_id           int       `json:"bk_biz_id" gorm:"int;not null;unique_index;primary key"`
 	Default             int       `json:"default" gorm:"int"`
 	Language            string    `json:"language" gorm:"VARCHAR(32)"`
 	Life_cycle          string    `json:"life_cycle" gorm:"VARCHAR(32)"`
