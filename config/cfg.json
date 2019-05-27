@@ -1,0 +1,9 @@
+{
+	"Parameter":{
+		"bk_app_code":"hdzjz",
+		"bk_app_secret":"9d6b4db4-de11-4047-b60f-891caef02b8e",
+		"bk_username":"021127100"
+	},
+	"API":"https://paas.evergrande.com/api/c/compapi/v2/cc/",
+	"db" : "root:HD#it2019@tcp(10.100.174.21:3306)/cmdb"
+}
