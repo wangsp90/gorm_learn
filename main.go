@@ -14,9 +14,9 @@ import (
 
 func main() {
     home := &db.Home{
-        Name:      "wxc",
+        Name:      "Baolan",
         Sex:       "M",
-        Age:       29,
+        Age:       18,
         Creattime: time.Now(),
     }
 
